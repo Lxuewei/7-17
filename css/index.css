@@ -1,0 +1,217 @@
+html{font-size: calc(100/1080*100vw)}
+body{overflow-x: hidden;background: #ddd;}
+
+#container{
+    width:10.80rem;height:19.2rem;margin:0 auto;
+    background: url(../img/c0-bg.jpg) no-repeat;background-size: 100% 100%;
+}
+header>img{margin-left: 1rem;margin-top:.2rem;width:3.2rem;height:1rem;}
+
+article{position:relative;}
+article>div{width:5rem;height:4rem;position:absolute;overflow: hidden;z-index: 1;}
+article>div>img{width:100%;float: left;}
+
+#show-yun{width:6.6rem;height:5.7rem;right: .2rem;top:5rem;z-index: 3;}
+/*政府*/
+#c0-zf{
+    left: 5rem;top:.2rem;
+    animation: c0-zf-animation 16s infinite ;
+    -webkit-animation:c0-zf-animation 16s infinite;
+    -moz-animation:c0-zf-animation 16s infinite;
+    -o-animation:c0-zf-animation 16s infinite;
+}
+/*企业*/
+#c0-qy{
+    top:4rem;
+    animation: c0-qy-animation 16s infinite ;
+    -webkit-animation:c0-qy-animation 16s infinite;
+    -moz-animation:c0-qy-animation 16s infinite;
+    -o-animation:c0-qy-animation 16s infinite;
+}
+
+/*教育*/
+#c0-jy{
+    top:11.6rem;
+    animation: c0-jy-animation 16s infinite ;
+    -webkit-animation:c0-jy-animation 16s infinite;
+    -moz-animation:c0-jy-animation 16s infinite;
+    -o-animation:c0-jy-animation 16s infinite;
+}
+
+/*电力*/
+#c0-dl{
+    left:5rem;top:13rem;
+    animation: c0-dl-animation 16s infinite ;
+    -webkit-animation:c0-dl-animation 16s infinite;
+    -moz-animation:c0-dl-animation 16s infinite;
+    -o-animation:c0-dl-animation 16s infinite;
+}
+
+/*政府*/
+@keyframes c0-zf-animation
+{
+    0%  {left:5rem;top:.2rem;}
+    25% {left: 5rem;top:13rem;}
+    50% {left: 0rem;top:11.6rem;}
+    75% {left:0rem;top:4rem;}
+    100%{left:5rem;top:.2rem;}
+}
+@-webkit-keyframes c0-zf-animation
+{
+    0%  {left:5rem;top:.2rem;}
+    25% {left: 5rem;top:13rem;}
+    50% {left: 0rem;top:11.6rem;}
+    75% {left:0rem;top:4rem;}
+    100%{left:5rem;top:.2rem;}
+}
+@-o-keyframes c0-zf-animation
+{
+    0%  {left:5rem;top:.2rem;}
+    25% {left: 5rem;top:13rem;}
+    50% {left: 0rem;top:11.6rem;}
+    75% {left:0rem;top:4rem;}
+    100%{left:5rem;top:.2rem;}
+}
+@-moz-keyframes c0-zf-animation
+{
+    0%  {left:5rem;top:.2rem;}
+    25% {left: 5rem;top:13rem;}
+    50% {left: 0rem;top:11.6rem;}
+    75% {left:0rem;top:4rem;}
+    100%{left:5rem;top:.2rem;}
+}
+
+/*企业*/
+@keyframes c0-qy-animation
+{
+    0% {left:0rem;top:4rem;}
+    25% {left:5rem;top:.2rem;}
+    50% {left: 5rem;top:13rem;}
+    75%{left: 0rem;top:11.6rem;}
+    100% {left:0rem;top:4rem;}
+}
+@-webkit-keyframes c0-qy-animation
+{
+    0% {left:0rem;top:4rem;}
+    25% {left:5rem;top:.2rem;}
+    50% {left: 5rem;top:13rem;}
+    75%{left: 0rem;top:11.6rem;}
+    100% {left:0rem;top:4rem;}
+}
+@-o-keyframes c0-qy-animation
+{
+    0% {left:0rem;top:4rem;}
+    25% {left:5rem;top:.2rem;}
+    50% {left: 5rem;top:13rem;}
+    75%{left: 0rem;top:11.6rem;}
+    100% {left:0rem;top:4rem;}
+}
+@-moz-keyframes c0-qy-animation
+{
+    0% {left:0rem;top:4rem;}
+    25% {left:5rem;top:.2rem;}
+    50% {left: 5rem;top:13rem;}
+    75%{left: 0rem;top:11.6rem;}
+    100% {left:0rem;top:4rem;}
+}
+
+/*教育*/
+@keyframes c0-jy-animation
+{
+    0%  {left: 0rem;top:11.6rem;}
+    25% {left:0rem;top:4rem;}
+    50% {left:5rem;top:.2rem;}
+    75% {left: 5rem;top:13rem;}
+    100%{left: 0rem;top:11.6rem;}
+}
+@-webkit-keyframes c0-jy-animation
+{
+    0%  {left: 0rem;top:11.6rem;}
+    25% {left:0rem;top:4rem;}
+    50% {left:5rem;top:.2rem;}
+    75% {left: 5rem;top:13rem;}
+    100%{left: 0rem;top:11.6rem;}
+}
+@-moz-keyframes c0-jy-animation
+{
+    0%  {left: 0rem;top:11.6rem;}
+    25% {left:0rem;top:4rem;}
+    50% {left:5rem;top:.2rem;}
+    75% {left: 5rem;top:13rem;}
+    100%{left: 0rem;top:11.6rem;}
+}
+@-o-keyframes c0-jy-animation
+{
+    0%  {left: 0rem;top:11.6rem;}
+    25% {left:0rem;top:4rem;}
+    50% {left:5rem;top:.2rem;}
+    75% {left: 5rem;top:13rem;}
+    100%{left: 0rem;top:11.6rem;}
+}
+
+/*电力*/
+@keyframes c0-dl-animation
+{
+    0%  {left: 5rem;top:13rem;}
+    25% {left: 0rem;top:11.6rem;}
+    50% {left:0rem;top:4rem;}
+    75% {left:5rem;top:.2rem;}
+    100%  {left: 5rem;top:13rem;}
+}
+@-webkit-keyframes c0-dl-animation
+{
+    0%  {left: 5rem;top:13rem;}
+    25% {left: 0rem;top:11.6rem;}
+    50% {left:0rem;top:4rem;}
+    75% {left:5rem;top:.2rem;}
+    100%  {left: 5rem;top:13rem;}
+}
+@-o-keyframes c0-dl-animation
+{
+    0%  {left: 5rem;top:13rem;}
+    25% {left: 0rem;top:11.6rem;}
+    50% {left:0rem;top:4rem;}
+    75% {left:5rem;top:.2rem;}
+    100%  {left: 5rem;top:13rem;}
+}
+@-moz-keyframes c0-dl-animation
+{
+    0%  {left: 5rem;top:13rem;}
+    25% {left: 0rem;top:11.6rem;}
+    50% {left:0rem;top:4rem;}
+    75% {left:5rem;top:.2rem;}
+    100%  {left: 5rem;top:13rem;}
+}
+
+.c0-yun{
+    margin-top:-2.2rem;margin-left:-2rem;
+    animation: c0-animation 20s infinite ;
+    -webkit-animation:c0-animation 20s infinite;
+    -moz-animation:c0-animation 20s infinite;
+    -o-animation:c0-animation 20s infinite;
+}
+@keyframes c0-animation
+{
+    0%   {margin-left:-5rem;}
+    50%  {margin-left:5rem;}
+    100% {margin-left:-5rem;}
+}
+@-webkit-keyframes c0-animation
+{
+    0%   {margin-left:-5rem;}
+    50%  {margin-left:5rem;}
+    100% {margin-left:-5rem;}
+}
+@-o-keyframes c0-animation
+{
+    0%   {margin-left:-5rem;}
+    50%  {margin-left:5rem;}
+    100% {margin-left:-5rem;}
+}
+@-moz-keyframes c0-animation
+{
+    0%   {margin-left:-5rem;}
+    50%  {margin-left:5rem;}
+    100% {margin-left:-5rem;}
+}
+
